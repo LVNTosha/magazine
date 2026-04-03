@@ -14,3 +14,18 @@ html{
     line-height: 1.6;
     color: #000;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+    gap: 10px;
+}
+
+.menu :hover{
+    color: #22deff;
+}
