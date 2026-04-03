@@ -10,9 +10,10 @@
 
 html{
     box-sizing: border-box;
-    font-size: 10,5px;
+    font-size: 10px;
     line-height: 1.6;
     color: #000;
+    margin: 20px;
 }
 
 header{
@@ -21,11 +22,57 @@ header{
     align-items: center;
 }
 
+.logo{
+    font-size: 90px;
+    font-family: var(--font-family);
+    text-decoration: underline 5px;
+}
+
 li{
+    display: flex;
     list-style: none;
-    gap: 10px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.menu{
+    text-decoration: none;
+    color: #000;
 }
 
 .menu :hover{
-    color: #22deff;
+    color: #00d9ff;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 96vw;
+    padding: 20px 0px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    font-family: var(--font-family);
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-family: var(--font-family);
+}
+
+.lead{
+    font-size: 2.5rem;
+    font-style: normal;
+    font-family: var(--font-family);
+    margin: 10px;
+    text-align: justify;
 }
