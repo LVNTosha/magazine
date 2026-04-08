@@ -144,3 +144,35 @@ h3{
 span{
     color: #727272;
 }
+
+.about_us{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 5%;
+}
+
+.about{
+    font-size: 1.5rem;
+    font-style: normal;
+    font-family: var(--font-family);
+    text-align: justify;
+}
+
+.about_img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+blockquote{
+    font-style: italic;
+    font-size: 2rem;
+    border-left: #00d9ff 2%;
+    margin: 5%;
+}
+
+.blockquote{
+    position: relative;
+    left: 80%;
+}
