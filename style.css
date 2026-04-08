@@ -93,18 +93,22 @@ h2{
 }
 
 article {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 16px;
-  max-width: 350px;
-  margin: 0 auto;
-  
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 350px;
+    margin: 0 auto;
+    box-shadow: #000 5%;
+}
+
+article:hover{
+    transform: translateY(-5px)
 }
 
 .article-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 4px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
 }
 
 h3{
@@ -129,6 +133,10 @@ h3{
 }
 
 .text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
     text-align: justify;
     font-size: 1.5rem;
 }
